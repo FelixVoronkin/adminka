@@ -1,4 +1,4 @@
-const allowedCors = ["*"];
+const allowedCors = ["*","https://kibersiten.nomorepartiesco.ru","https://kibersitenfede.nomorepartiesco.ru"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
